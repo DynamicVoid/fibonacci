@@ -2,14 +2,10 @@
 #include <cstdlib>
 
 int main(int argc, char* argv[]){
-    long lastNumber = 0;
-    long secondLastNumber = 0;
-    long currentNumber = 0;
-
+    double lastNumber = 0, secondLastNumber = 0, currentNumber = 0;
     int number = 0;
 
     while(number <= atoi(argv[1])){
-
         if(number == 1){
             currentNumber = 1;
         }else{
